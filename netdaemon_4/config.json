@@ -27,6 +27,9 @@
     "app_config_folder": "/config/netdaemon4",
     "app_assembly": ""
   },
+  "devices": [
+    "/dev/ttyUSB0"
+  ],
   "schema": {
     "log_level": "match(^(trace|debug|information|warning|error|critical)$)",
     "app_config_folder": "str",
