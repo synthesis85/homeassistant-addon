@@ -19,7 +19,7 @@
   ],
   "devices": [
     "/dev/ttyUSB0"
-  ]
+  ],
   "ingress": false,
   "hassio_api": true,
   "hassio_role": "default",
