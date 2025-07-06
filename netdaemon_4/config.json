@@ -1,6 +1,6 @@
 {
   "name": "NetDaemon V4 (.NET 8)",
-  "version": "24.43.0",
+  "version": "24.44.0",
   "slug": "netdaemon4",
   "description": "NetDaemon V4 (Synthesis85 custom) (.NET 8), Write automations in C# for Home Assistant",
   "url": "https://netdaemon.xyz",
@@ -28,7 +28,12 @@
     "app_assembly": ""
   },
   "devices" : [
-   "/dev/ttyUSB0" 
+   "/dev/ttyUSB0",
+   "/dev/ttyUSB1",
+   "/dev/ttyUSB2",
+   "/dev/ttyUSB3",
+   "/dev/serial/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1.3:1.0-port0",
+   "/dev/serial/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1.2:1.0-port0"
   ],
   "schema": {
     "log_level": "match(^(trace|debug|information|warning|error|critical)$)",
